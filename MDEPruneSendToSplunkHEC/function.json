@@ -8,6 +8,13 @@
       "connection": "",
       "cardinality": "many",
       "consumerGroup": "$Default"
+    },
+    {
+      "name": "outputBlob",
+      "type": "blob",
+      "path": "undeliverable-events/mde-prune",
+      "connection": "BLOB_CONNECTION_STRING",
+      "direction": "out"
     }
   ]
 }
